@@ -9,7 +9,6 @@ public class Eingabe {
             if (out.equals(s)){
                 ++count;
             }
-
         }
         return count;
     }
@@ -17,6 +16,5 @@ public class Eingabe {
     public static void main(String[] args) {
         java.util.Scanner scanner = new java.util.Scanner(System.in);
         System.out.println(zaehlen(scanner, "zwei"));
-
     }
 }
